@@ -2,6 +2,8 @@
 
 body {
   font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 h2 {
@@ -32,7 +34,9 @@ section.alternate-background {
 
 main img {
   width: 100px;
+  width: 100%
 }
+
 
 /* ---  Groups & Items --- */
 
@@ -44,11 +48,10 @@ main img {
 .item {
   flex: 1;
   margin: 10px;
+
 }
 
-.item-double {
-  flex: 2;
-}
+
 
 /* -------  Navigation ------- */
 
@@ -111,6 +114,7 @@ form button {
   padding: 15px;
   width: 100%;
 }
+
 
 /* -------  Footer ------- */
 
@@ -188,4 +192,3 @@ footer p {
     flex: 1;
   }
 }
-
